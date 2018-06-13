@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mathbirb</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="css/Tafelpage.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+
+  <!--Navbar--->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" style="color:#33ff33;" href="#">Mathbirb</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li ><a href="mathbirb-Homepage.html">Home</a></li>
+          <li ><a href="mathbirb-tafelpage.html">Tafels</a></li>
+          <li ><a href="mathbirb-priempage.html">Priemgetallen</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+
+  <!--container-->
+  <div class="container">
+      <div class="jumbotron">
+        <h1 id="h1mathbirb">MATHBIRB</h1>
+        <img src="img/mathbirb.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+
+
+
+  <main id="site-main">
+      <article>
+          <h1 style="color:#33ff33;">Tafels</h1>
+          <form onsubmit="return genereerTafel();">
+              <p>
+                  <label for="tafel-max"> factor</label>
+                  <input  id="tafel-max" name="tafelMax" type="number" value="">
+              </p>
+              <p>
+                  <label for="tafel-basis"> basis</label>
+                  <input  id="tafel-basis" name="tafelBasis" type="number" value="">
+              </p>
+              <p>
+                  <button class="button" type="submit">Genereer tafel</button>
+              </p>
+              <p id="tafel-resultaat">
+
+              </p>
+          </form>
+      </article>
+
+</div>
+
+
+<script src="script/tafels.js"></script>
+</body>
+</html>
