@@ -23,6 +23,7 @@
           <li ><a href="mathbirb-Homepage.html">Home</a></li>
           <li ><a href="mathbirb-tafelpage.html">Tafels</a></li>
           <li ><a href="mathbirb-priempage.html">Priemgetallen</a></li>
+          <li ><a href="mathbirb-inloggen.html">Login</a></li>
         </ul>
       </div>
     </nav>
@@ -35,8 +36,22 @@
     <h1 >MATHBIRB</h1>
     <img src="img/mathbirb.jpg" class="img-fluid" alt="Responsive image">
   </div>
-    <h1 style="color:white;">Welcome!</h1>
-  <p>loremipsum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisd exercitation lilamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nlila pariatur. Excepteur sint occaecat cupidatat non proi</p>
+  <!--PHP-->
+  <form action="inloggendb.php" method="post">
+
+    <div class="container">
+      <label for="uname"><b style="color:#33ff33;">Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b style="color:#33ff33;">Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button style="background-color:#33ff33;" type="submit">Login</button>
+
+    </div>
+
+
+  </form>
 </div>
 
 

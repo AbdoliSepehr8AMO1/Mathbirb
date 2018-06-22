@@ -1,0 +1,86 @@
+
+body{
+  background-color: #0d0d0d;
+  text-decoration: uppercase;
+}
+
+/*--------------navbar-------------*/
+
+ul li a{
+  font-size: 24px;
+  font-family: 'Inconsolata', monospace;
+  padding: 0 149px;
+  display: block;
+  text-decoration: none;
+  color: #33ff33;
+}
+li:hover{
+  background-color: #33ff33;}
+
+
+/*--------------container-------------*/
+.jumbotron {
+  text-align: center;
+  background-color: #0d0d0d;
+}
+.img-fluid{
+  max-width 100%;
+  height: auto;
+}
+.jumbotron h1{
+  color: #33ff33;
+}
+
+/*-------------------PHP--------------------------------------*/
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 2px
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+1februarie 2019
+27 augustus
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+
+}
+
+/* container image size op iphone */
+@media only screen and (max-width: 600px) {
+  .img-fluid{
+    width: 50vw;
+    height: auto;
+  }
+}
