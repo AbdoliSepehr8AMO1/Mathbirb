@@ -27,30 +27,23 @@
         </ul>
       </div>
     </nav>
-
-
-
 <!--container-->
 <div class="container">
   <div class="jumbotron">
     <h1 >MATHBIRB</h1>
     <img src="img/mathbirb.jpg" class="img-fluid" alt="Responsive image">
   </div>
-  <!--PHP-->
-  <form action="inloggendb.php" method="post">
-
+  <!--PHPform-->
+  <form action="mathbirb-inloggen.php" method="POST">
     <div class="container">
       <label for="uname"><b style="color:#33ff33;">Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="uname"/>
 
       <label for="psw"><b style="color:#33ff33;">Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
       <button style="background-color:#33ff33;" type="submit">Login</button>
-
     </div>
-
-
   </form>
 </div>
 
