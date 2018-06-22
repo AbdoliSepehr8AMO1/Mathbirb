@@ -62,29 +62,6 @@ li:hover{
     display: none;
   }
 }
-/* container image size op ipad */
-@media only screen and (max-width: 768px) {
-  .img-fluid{
-    display: none;
-  }
-  #h1mathbirb{
-    display: none;
-  }
-  #tafel-resultaat{
-    background-color: black;
-    border: none;
-    color: #33ff33;
-    width: 100vw;
-    text-align: center;
-    text-decoration: bold;
-    display: inline-block;
-    font-size: 25px;
-  }
-
-  .navbar-brand{
-    display: none;
-  }
-}
 
 /*--------------javascript-------------*/
 .site-main {

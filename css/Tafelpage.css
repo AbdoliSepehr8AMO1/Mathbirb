@@ -47,7 +47,7 @@ li:hover{
   #h1mathbirb{
     display: none;
   }
-  #tafel-resultaat{
+  #site-main{
     background-color: black;
     border: none;
     color: #33ff33;
@@ -80,6 +80,7 @@ li:hover{
     display: inline-block;
     font-size: 25px;
   }
+
 
   .navbar-brand{
     display: none;
