@@ -8,6 +8,17 @@ body{
       color: #33ff33;
       font-size: 2vw;
 }
+ul li a{
+  font-size: 24px;
+  font-family: 'Inconsolata', monospace;
+  padding: 0 149px;
+  display: block;
+  text-decoration: none;
+  color: #33ff33;
+}
+li:hover{
+  background-color: #33ff33;}
+
 .pointer {
 	width: 0;
 	height: 0;
