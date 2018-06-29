@@ -8,7 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-  <link href="css/Homepage.css" rel="stylesheet" type="text/css"/>
+  <script src="js/rad.js"></script>
+  <link href="css/rad.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -28,20 +29,25 @@
         </ul>
       </div>
     </nav>
-
-
-
-<!--container-->
-<div class="container">
-  <div class="jumbotron">
-    <h1 >MATHBIRB</h1>
-    <img src="img/mathbirb.jpg" class="img-fluid" alt="Responsive image">
-  </div>
-    <h1 style="color:white;">Welcome!</h1>
-  <p>loremipsum ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quisd exercitation lilamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nlila pariatur. Excepteur sint occaecat cupidatat non proi</p>
-</div>
-
-
+ <div class="container" style="margin-top:100px;">
+        <table class="text-center">
+            <tr>
+                <td colspan="2"><input id="btnSpinIt" type="submit" value="Spin It" onclick="SpinIt()"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="pointer"></div><div id="rad" class="text-center"></div>
+                </td>
+                <td>
+                    <div class="pointer2"></div><div id="rad2" class="text-center"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input id="ipNumberRad1" type="text" class="input-sm form-control"></td>
+                <td><input id="ipNumberRad2" type="text" class="input-sm form-control"></td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 </html>
