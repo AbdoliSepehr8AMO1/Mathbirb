@@ -66,8 +66,10 @@ li:hover{
 /*--------------javascript-------------*/
 .site-main {
     float: left;
+    margin-left: 10vw;
 }
 .site-main h1{
+  margin-top: 5vw;
   color: #33ff33;
 }
 #ipGetPrimes{
@@ -75,6 +77,7 @@ li:hover{
   background-color: #33ff33;
 }
 #ipPrimeNumber{
+  margin-top: 2vw;
   color:#33ff33;
   background-color: black;
   padding: 20px;
@@ -106,9 +109,9 @@ li:hover{
   padding: 10px 90px;
   font-size: 20px;
 }
-input {
-    margin-left: -4vw;
-    margin-top: 21vh;
+.startReeks {
+    margin-left: 35vw;
+    margin-top: 12vh;
     position:absolute;
     width: 15vw;
     min-width: 100px;
@@ -116,8 +119,8 @@ input {
 }
 
 h2{
-    margin-top: 2vh;
-    margin-left: 14vw;
+    margin-top: 1vh;
+    margin-left: 54vw;
     font-size: 2vw;
     text-align: center;
     color: #00ff00;
@@ -126,8 +129,8 @@ h2{
 }
 h4{
     font-size: 1.5vw;
-    margin-top: 10vh;
-    margin-left: 15vw;
+    margin-top: 7vh;
+    margin-left: 55vw;
     text-align: center;
     color: #00ff00;
     float: left;
@@ -136,41 +139,9 @@ h4{
 #dReeks {
     width: 32vw;
     min-width: 125px;
-    margin-top: 32vh;
+    margin-top: 18vh;
     position: absolute;    
-    left: 8vw;
-    border: 1px dashed #808080;
-    border-radius: 10px;
-    text-align:center;
-    padding:10px;
-    color: #00ff00;
-}
-/*priemgetallen */
-.form {
-    margin-top: 20vh;
-    width: 20vw;
-    height: 50vh;
-    float: left;
-    position: absolute;
-    
-}
-#calc{
-    margin-left: 55vw;
-    margin-top: 1vh;
-    position: absolute;
-}
-#number{
-    margin-left: 55vw;
-    margin-top: 6vh;
-    position: absolute;
-}
-#output{
-    color: #00ff00;
-    margin-left: 50vw;
-    margin-top: 12vh;
-    position: absolute;
-    min-width: 125px;
-    width: 32vw;
+    left: 48vw;
     border: 1px dashed #808080;
     border-radius: 10px;
     text-align:center;
