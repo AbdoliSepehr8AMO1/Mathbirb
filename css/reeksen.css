@@ -1,0 +1,159 @@
+/* navbar / css of website itself */
+body{
+  background-color: black;
+  text-decoration: uppercase;
+  font-family: 'Inconsolata', monospace;
+}
+a{
+  font-family: 'Inconsolata', monospace;
+  display: block;
+  text-decoration: none;
+  color: #33ff33;
+    font-size: 2vw;
+}
+.jumbotron {
+  text-align: center;
+  background-color: #0d0d0d;
+}
+.img-fluid{
+  max-width 100%;
+  height: auto;
+}
+.jumbotron h1{
+  color: #33ff33;
+}
+.textt{
+   color: #33ff33;
+   font-size: 2vw;
+    
+}
+.container h1{
+  text-align: center;
+}
+.container p{
+  color: #33ff33;
+}
+
+#mathbirb{
+    background-color: grey;
+    color: #00ff00;
+    padding: 0,5vw;
+    width: 10vw;
+    height: 8vh;
+}
+.form{
+    
+}
+#home{
+    background-color: blue;
+    color: #00ff00;
+    padding: 0,5vw;
+    width: 8vw;
+    height: 8vh;
+}
+#Link {
+    background-color: red;
+    color: #00ff00;
+    padding: 0,5vw;
+    width: 8vw;
+    height: 8vh;
+}
+#Link2 {
+    background-color: yellow;
+    color: #00ff00;
+    padding: 0,5vw;
+    width: 8vw;
+    height: 8vh;
+}
+.navbar .navbar-nav .nav-link {
+      color: #00ff21;
+      border-radius: .25rem;
+      margin: 0 0.25em;
+    }
+#navbarSupportedContent{
+    padding-top: 0,5vh;
+    border-radius: 10%;
+    text-align: center;
+}
+.priem{
+    margin-left: 56vw;
+    font-size: 2vw;
+    position:absolute;
+}
+.priem2{
+    margin-left: 54vw;
+     font-size: 1.5vw;
+    position:absolute;
+}
+/* fibbonaci */
+input {
+    margin-left: -4vw;
+    margin-top: 21vh;
+    position:absolute;
+    width: 15vw;
+    min-width: 100px;
+    left:20%;
+}
+
+h2{
+    margin-top: 2vh;
+    margin-left: 14vw;
+    font-size: 2vw;
+    text-align: center;
+    color: #00ff00;
+    float: left;
+    position: absolute;
+}
+h4{
+    font-size: 1.5vw;
+    margin-top: 10vh;
+    margin-left: 15vw;
+    text-align: center;
+    color: #00ff00;
+    float: left;
+    position: absolute;
+}
+#dReeks {
+    width: 32vw;
+    min-width: 125px;
+    margin-top: 32vh;
+    position: absolute;    
+    left: 8vw;
+    border: 1px dashed #808080;
+    border-radius: 10px;
+    text-align:center;
+    padding:10px;
+    color: #00ff00;
+}
+/*priemgetallen */
+.form {
+    margin-top: 20vh;
+    width: 20vw;
+    height: 50vh;
+    float: left;
+    position: absolute;
+    
+}
+#calc{
+    margin-left: 55vw;
+    margin-top: 1vh;
+    position: absolute;
+}
+#number{
+    margin-left: 55vw;
+    margin-top: 6vh;
+    position: absolute;
+}
+#output{
+    color: #00ff00;
+    margin-left: 50vw;
+    margin-top: 12vh;
+    position: absolute;
+    min-width: 125px;
+    width: 32vw;
+    border: 1px dashed #808080;
+    border-radius: 10px;
+    text-align:center;
+    padding:10px;
+    color: #00ff00;
+}

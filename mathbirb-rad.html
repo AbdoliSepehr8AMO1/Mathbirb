@@ -8,9 +8,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-  <link href="css/Tafelpage.css" rel="stylesheet" type="text/css"/>
-
-
+  <script src="js/rad.js"></script>
+  <link href="css/rad.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -30,40 +29,25 @@
         </ul>
       </div>
     </nav>
+ <div class="container" style="margin-top:100px;">
+        <table class="text-center">
+            <tr>
+                <td colspan="2"><input id="btnSpinIt" type="submit" value="Spin It" onclick="SpinIt()"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="pointer"></div><div id="rad" class="text-center"></div>
+                </td>
+                <td>
+                    <div class="pointer2"></div><div id="rad2" class="text-center"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><input id="ipNumberRad1" type="text" class="input-sm form-control"></td>
+                <td><input id="ipNumberRad2" type="text" class="input-sm form-control"></td>
+            </tr>
+        </table>
+    </div>
 
-
-  <!--container-->
-  <div class="container">
-      <div class="jumbotron">
-        <h1 id="h1mathbirb">MATHBIRB</h1>
-        <img src="img/mathbirb.jpg" class="img-fluid" alt="Responsive image">
-      </div>
-
-
-  <main id="site-main">
-      <article>
-          <h1 style="color:#33ff33;">Tafels</h1>
-          <form onsubmit="return genereerTafel();">
-              <p>
-                  <label for="tafel-max"> factor</label>
-                  <input  id="tafel-max" name="tafelMax" type="number" value="">
-              </p>
-              <p>
-                  <label for="tafel-basis"> basis</label>
-                  <input  id="tafel-basis" name="tafelBasis" type="number" value="">
-              </p>
-              <p>
-                  <button class="button" type="submit">Genereer tafel</button>
-              </p>
-                <p id="tafel-resultaat">
-
-                </p>
-          </form>
-      </article>
-
-</div>
-
-
-<script src="script/tafels.js"></script>
 </body>
 </html>
